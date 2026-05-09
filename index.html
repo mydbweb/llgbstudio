@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="个人网页作品集，展示个人介绍、精选项目、工作方式与联系方式。"
+    />
+    <title>你的名字 | 个人网页</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">Y</span>
+        <span>你的名字</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#work">项目</a>
+        <a href="#notes">动态</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="切换深浅色">
+        <span class="sun">☀</span>
+        <span class="moon">☾</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">个人主页 / 作品集 / 联系入口</p>
+          <h1>你好，我是你的名字。</h1>
+          <p class="hero-text">
+            我关注清晰的表达、可靠的产品体验和有温度的数字创作。目前专注于把想法变成可用、好看、容易维护的作品。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">查看项目</a>
+            <a class="button secondary" href="mailto:hello@example.com">发邮件</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-label="个人工作场景图片">
+          <img
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85"
+            alt="桌面上的电脑、笔记本和工作用品"
+          />
+          <div class="hero-badge">
+            <strong>开放合作</strong>
+            <span>产品、网页、内容与创意项目</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-grid" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">一个更像你本人的线上名片。</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            这里可以写你的真实介绍：你是谁、正在做什么、擅长什么、希望别人如何理解你。保持简洁，但别太冷冰冰。
+          </p>
+          <p>
+            如果你是学生，可以换成专业方向和作品；如果你是创作者，可以换成内容领域；如果你是开发者，可以放技术栈和项目经历。
+          </p>
+        </div>
+      </section>
+
+      <section class="section stats" aria-label="个人亮点">
+        <article>
+          <span>03+</span>
+          <p>精选项目</p>
+        </article>
+        <article>
+          <span>08</span>
+          <p>可替换技能标签</p>
+        </article>
+        <article>
+          <span>24h</span>
+          <p>邮件内通常回复</p>
+        </article>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Work</p>
+            <h2 id="work-title">精选项目</h2>
+          </div>
+          <p>把下面内容替换成你的项目、作品、研究、活动或简历亮点。</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=85"
+              alt="抽象建筑立面"
+            />
+            <div>
+              <span>Web Design</span>
+              <h3>个人品牌主页</h3>
+              <p>一个用于展示个人经历、作品与联系方式的响应式网页。</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85"
+              alt="数据分析仪表盘"
+            />
+            <div>
+              <span>Product</span>
+              <h3>效率工具原型</h3>
+              <p>围绕日常流程设计的小工具，重点是清晰的信息结构。</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85"
+              alt="电脑上的代码编辑器"
+            />
+            <div>
+              <span>Code</span>
+              <h3>前端交互组件</h3>
+              <p>沉淀常用页面模块，让后续搭建更稳定、更快。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="notes" aria-labelledby="notes-title">
+        <div>
+          <p class="section-kicker">Notes</p>
+          <h2 id="notes-title">最近在关注</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <time datetime="2026-05">2026.05</time>
+            <p>整理个人作品与经历，建立一个长期可维护的展示入口。</p>
+          </article>
+          <article>
+            <time datetime="2026-04">2026.04</time>
+            <p>尝试把 AI 辅助流程融入日常创作、学习或项目开发。</p>
+          </article>
+          <article>
+            <time datetime="2026-03">2026.03</time>
+            <p>记录值得复盘的项目方法，让下一次开始更轻松。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="section-kicker">Contact</p>
+        <h2 id="contact-title">有想法，欢迎联系我。</h2>
+        <p>把这里换成你的邮箱、微信、GitHub、LinkedIn、小红书或其他入口。</p>
+        <div class="contact-links">
+          <a href="mailto:hello@example.com">hello@example.com</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> 你的名字. Built with care.</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
