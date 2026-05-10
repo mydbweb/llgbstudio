@@ -5,212 +5,217 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="个人网页作品集，展示个人介绍、精选项目、工作方式与联系方式。"
+      content="赵杰导演、编剧、摄影个人作品网站，展示短片、摄影指导、商业影像与制片经历。"
     />
-    <title>你的名字 | 个人网页</title>
-    <link rel="preconnect" href="https://images.unsplash.com" />
+    <title>赵杰 Zhao Jie | 导演 / 编剧 / 摄影</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="返回首页">
-        <span class="brand-mark">Y</span>
-        <span>你的名字</span>
+        <span class="brand-mark">ZJ</span>
+        <span>赵杰</span>
       </a>
       <nav class="nav-links" aria-label="主导航">
         <a href="#about">关于</a>
-        <a href="#work">作品集</a>
-        <a href="#notes">动态</a>
+        <a href="#directing">导演作品</a>
+        <a href="#cinematography">摄影作品</a>
+        <a href="#commercial">商业项目</a>
         <a href="#contact">联系</a>
       </nav>
-      <button class="theme-toggle" type="button" aria-label="切换深浅色">
-        <span class="sun">☀</span>
-        <span class="moon">☾</span>
-      </button>
+      <a class="header-link" href="#contact">合作咨询</a>
     </header>
 
     <main id="top">
       <section class="hero">
+        <img
+          class="hero-bg"
+          src="./assets/images/portfolio-ocean-cover.jpg"
+          alt="深色海面背景"
+        />
+        <div class="hero-shade"></div>
         <div class="hero-copy">
-          <p class="eyebrow">个人主页 / 作品集 / 联系入口</p>
-          <h1>你好，我是你的名字。</h1>
+          <p class="eyebrow">Director / Screenwriter / Cinematographer</p>
+          <h1>赵杰<br /><span>Zhao Jie</span></h1>
           <p class="hero-text">
-            我关注清晰的表达、可靠的产品体验和有温度的数字创作。目前专注于把想法变成可用、好看、容易维护的作品。
+            影视摄影与制作专业出身，长期从事剧情短片、广告影像、商业拍摄与影像项目统筹。作品关注人物处境、命运感与现实缝隙里的情绪。
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#work">查看作品集</a>
-            <a class="button secondary" href="mailto:hello@example.com">发邮件</a>
+            <a class="button primary" href="#directing">查看代表作品</a>
+            <a class="button secondary" href="#contact">联系合作</a>
           </div>
         </div>
-        <div class="hero-media" aria-label="个人工作场景图片">
-          <img
-            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85"
-            alt="桌面上的电脑、笔记本和工作用品"
-          />
-          <div class="hero-badge">
-            <strong>开放合作</strong>
-            <span>产品、网页、内容与创意项目</span>
+        <div class="hero-card" aria-label="作品集题记">
+          <span>留了个白影像工作室</span>
+          <strong>命运比我们的看法更为准确</strong>
+          <p>Fate is more accurate than we think.</p>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="about-image">
+          <img src="./assets/images/zhao-jie-portrait.jpg" alt="赵杰个人照片" />
+        </div>
+        <div class="about-copy">
+          <p class="section-kicker">Self-Introduction</p>
+          <h2 id="about-title">导演、编剧、摄影，也负责把现场变成可执行的影像系统。</h2>
+          <p>
+            赵杰，1999 年生，常驻北京。曾在传媒公司与广告公司参与影像项目制作，目前以留了个白影像工作室为主要创作与合作入口。
+          </p>
+          <p>
+            工作覆盖导演编剧、摄影指导、灯光、制片与商业影像执行。既能参与前期文本与分镜，也能进入拍摄现场完成画面、流程和交付的协同。
+          </p>
+          <div class="about-tags" aria-label="能力标签">
+            <span>导演 / 编剧</span>
+            <span>摄影指导</span>
+            <span>商业影像</span>
+            <span>制片统筹</span>
+            <span>分镜与拍摄计划</span>
           </div>
         </div>
       </section>
 
-      <section class="section intro-grid" id="about" aria-labelledby="about-title">
-        <div>
-          <p class="section-kicker">About</p>
-          <h2 id="about-title">一个更像你本人的线上名片。</h2>
-        </div>
-        <div class="intro-copy">
-          <p>
-            这里可以写你的真实介绍：你是谁、正在做什么、擅长什么、希望别人如何理解你。保持简洁，但别太冷冰冰。
-          </p>
-          <p>
-            如果你是学生，可以换成专业方向和作品；如果你是创作者，可以换成内容领域；如果你是开发者，可以放技术栈和项目经历。
-          </p>
-        </div>
-      </section>
-
-      <section class="section stats" aria-label="个人亮点">
+      <section class="metrics" aria-label="作品履历亮点">
         <article>
-          <span>06</span>
-          <p>作品展示位置</p>
+          <span>2023</span>
+          <p>WAFF 最佳剧情短片</p>
         </article>
         <article>
-          <span>04</span>
-          <p>作品分类</p>
+          <span>ASIS</span>
+          <p>短片单元最佳摄影提名</p>
         </article>
         <article>
-          <span>24h</span>
-          <p>联系后通常回复</p>
+          <span>KO3</span>
+          <p>最佳影片 / 最佳音效设计</p>
+        </article>
+        <article>
+          <span>北京</span>
+          <p>常驻，开放影像合作</p>
         </article>
       </section>
 
-      <section class="section" id="work" aria-labelledby="work-title">
+      <section class="section" id="directing" aria-labelledby="directing-title">
         <div class="section-heading">
-          <div>
-            <p class="section-kicker">Portfolio</p>
-            <h2 id="work-title">作品集</h2>
-          </div>
-          <p>这里可以放你的网页、设计、视频、活动、研究或任何值得展示的成果。先用样例搭好结构，之后替换成真实作品。</p>
+          <p class="section-kicker">Works as Director / Writer</p>
+          <h2 id="directing-title">导演与编剧作品</h2>
+          <p>把 PDF 中的剧情短片履历作为网页主线，突出片名、职责、奖项与作品气质。</p>
         </div>
-        <div class="portfolio-tabs" aria-label="作品分类">
-          <span>全部</span>
-          <span>网页</span>
-          <span>视觉</span>
-          <span>视频</span>
-          <span>策划</span>
-        </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=85"
-              alt="抽象建筑立面"
-            />
-            <div>
-              <span>Web / Brand</span>
-              <h3>个人品牌主页</h3>
-              <p>用于展示个人介绍、作品集和联系方式的响应式网站，也是当前页面的核心入口。</p>
+        <div class="feature-grid">
+          <article class="feature-card large poster-card">
+            <img src="./assets/images/work-swan-song.jpg" alt="剧情短片《小曲》海报" />
+            <div class="feature-content">
+              <span>剧情短片 / 导演 / 编剧</span>
+              <h3>《小曲》 Swan Song</h3>
+              <p>一个关于守护的故事。2023 WAFF 最佳剧情短片，ASIS 短片单元最佳摄影提名，入围溪口应梦短片节、北京国际电影节华硕 E 创公益影像单元。</p>
             </div>
           </article>
-          <article class="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85"
-              alt="数据分析仪表盘"
-            />
-            <div>
-              <span>Product / UI</span>
-              <h3>工具界面原型</h3>
-              <p>围绕信息整理、内容展示或业务流程搭建的界面原型，可以替换成你的实际产品截图。</p>
+          <article class="feature-card">
+            <img src="./assets/images/work-destiny.jpg" alt="实验短片《命运》剧照" />
+            <div class="feature-content">
+              <span>实验短片 / 导演 / 编剧</span>
+              <h3>《命运》 Destiny</h3>
+              <p>一种思想终将吞噬掉另一种思想。以暗色、抽象与情绪化影像探索命运感。</p>
             </div>
           </article>
-          <article class="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85"
-              alt="电脑上的代码编辑器"
-            />
-            <div>
-              <span>Code / Frontend</span>
-              <h3>前端交互组件</h3>
-              <p>沉淀常用页面模块，让后续网站搭建更稳定、更快，也方便持续更新。</p>
+          <article class="feature-card">
+            <img src="./assets/images/work-escape.jpg" alt="剧情短片《鸵鸟》剧照" />
+            <div class="feature-content">
+              <span>剧情短片 / 导演 / 编剧</span>
+              <h3>《鸵鸟》 Escape</h3>
+              <p>关于是否有勇气面对自己的人生。KO3 最佳影片，最佳摄影提名，最佳音效设计获奖。</p>
             </div>
           </article>
-          <article class="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=900&q=85"
-              alt="彩色抽象视觉作品"
-            />
-            <div>
-              <span>Visual / Identity</span>
-              <h3>视觉作品合集</h3>
-              <p>适合放海报、Logo、品牌视觉、摄影或图形设计作品，图片可放到 assets/images。</p>
+          <article class="feature-card">
+            <img src="./assets/images/work-youth.jpg" alt="剧情短片《后生》剧照" />
+            <div class="feature-content">
+              <span>剧情短片 / 导演 / 编剧</span>
+              <h3>《后生》 Youth in Small Counties</h3>
+              <p>一次从羊圈逃离的救赎。获辽宁省网络文化节剧情短片一等奖。</p>
             </div>
           </article>
-          <article class="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=900&q=85"
-              alt="视频拍摄设备"
-            />
-            <div>
-              <span>Video / Story</span>
-              <h3>视频作品展示</h3>
-              <p>适合嵌入 YouTube、B站或短视频链接，也可以放压缩后的小视频预览。</p>
-            </div>
-          </article>
-          <article class="project-card">
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85"
-              alt="笔记本电脑上的协作内容"
-            />
-            <div>
-              <span>Planning / Content</span>
-              <h3>策划与内容项目</h3>
-              <p>用于记录活动策划、内容方案、研究报告或完整项目复盘，让作品更有上下文。</p>
-            </div>
-          </article>
-        </div>
-        <div class="portfolio-note">
-          <strong>素材放置建议</strong>
-          <p>
-            图片放在 <code>assets/images</code>，小视频放在 <code>assets/videos</code>，简历或资料放在
-            <code>assets/files</code>。替换卡片里的标题、说明和图片路径，就能逐步变成你的真实作品集。
-          </p>
         </div>
       </section>
 
-      <section class="section split" id="notes" aria-labelledby="notes-title">
-        <div>
-          <p class="section-kicker">Notes</p>
-          <h2 id="notes-title">最近在关注</h2>
+      <section class="section dark-band" id="cinematography" aria-labelledby="cinematography-title">
+        <div class="section-heading compact">
+          <p class="section-kicker">Cinematography / Lighting / Production</p>
+          <h2 id="cinematography-title">摄影、灯光与项目执行</h2>
         </div>
-        <div class="timeline">
+        <div class="role-list">
           <article>
-            <time datetime="2026-05">2026.05</time>
-            <p>整理个人作品与经历，建立一个长期可维护的展示入口。</p>
+            <img src="./assets/images/work-autumn.jpg" alt="《秋日协奏曲》剧照" />
+            <div>
+              <span>灯光指导</span>
+              <h3>《秋日协奏曲》</h3>
+              <p>剧情短片，导演周明月。以室内光线关系建立人物之间的情绪张力。</p>
+            </div>
           </article>
           <article>
-            <time datetime="2026-04">2026.04</time>
-            <p>尝试把 AI 辅助流程融入日常创作、学习或项目开发。</p>
+            <div>
+              <span>摄影指导</span>
+              <h3>《吞没》 / 《找到你了》</h3>
+              <p>参与多部剧情短片摄影指导工作，覆盖潮湿青春、梦境叙事与东亚家庭语境。</p>
+            </div>
           </article>
           <article>
-            <time datetime="2026-03">2026.03</time>
-            <p>记录值得复盘的项目方法，让下一次开始更轻松。</p>
+            <div>
+              <span>制片 / 副导演</span>
+              <h3>《阳台上的女人》 / 《麻雀》</h3>
+              <p>参与北京电影学院联合毕设与剧情短片项目，在现场执行、部门沟通与拍摄推进中承担关键职责。</p>
+            </div>
           </article>
+        </div>
+      </section>
+
+      <section class="section" id="commercial" aria-labelledby="commercial-title">
+        <div class="section-heading">
+          <p class="section-kicker">Commercial Works</p>
+          <h2 id="commercial-title">商业与活动影像</h2>
+          <p>将 PDF 里的商业项目收束成品牌合作、活动影像、平面与视频制作几类，让访客快速理解你的可合作方向。</p>
+        </div>
+        <div class="commercial-layout">
+          <article class="commercial-hero">
+            <img src="./assets/images/work-commercial.jpg" alt="康师傅冰红茶商业拍摄截图" />
+            <div>
+              <span>摄影 / 商业影像</span>
+              <h3>品牌广告与短视频拍摄</h3>
+              <p>参与康师傅冰红茶、今麦郎饮品、伊利金领冠、抖音短剧春节档 TVC、惠普暗夜精灵、中关村在线等商业项目拍摄。</p>
+            </div>
+          </article>
+          <div class="commercial-list">
+            <article>
+              <span>活动影像</span>
+              <h3>山一国际女性电影展</h3>
+              <p>2023 北京、2024 深圳南山盛放时刻，参与平面与视频全线制作。</p>
+            </article>
+            <article>
+              <span>内容制片</span>
+              <h3>央视频《康康说》《康辉说》</h3>
+              <p>参与央视主持人康辉相关内容项目制片工作，服务节目录制与执行流程。</p>
+            </article>
+            <article>
+              <span>影像工作室</span>
+              <h3>留了个白影像工作室</h3>
+              <p>承接短片、广告、活动、人物影像、拍摄方案与现场执行协作。</p>
+            </article>
+          </div>
         </div>
       </section>
 
       <section class="contact" id="contact" aria-labelledby="contact-title">
         <p class="section-kicker">Contact</p>
-        <h2 id="contact-title">有想法，欢迎联系我。</h2>
-        <p>把这里换成你的邮箱、微信、GitHub、LinkedIn、小红书或其他入口。</p>
+        <h2 id="contact-title">期待合作。</h2>
+        <p>剧情短片、广告影像、活动拍摄、人物纪录、分镜与拍摄执行相关合作，欢迎联系。</p>
         <div class="contact-links">
-          <a href="mailto:hello@example.com">hello@example.com</a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/mydbweb" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://mydbweb.github.io/llgbstudio/">作品网站</a>
+          <span>公开邮箱待添加</span>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>© <span id="year"></span> 你的名字. Built with care.</p>
+      <p>© <span id="year"></span> 赵杰 Zhao Jie. Built for visual storytelling.</p>
       <a href="#top">回到顶部</a>
     </footer>
 
