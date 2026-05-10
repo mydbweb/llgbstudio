@@ -473,6 +473,15 @@ footer {
   gap: 18px;
 }
 
+.commercial-list img {
+  width: 100%;
+  aspect-ratio: 2.15;
+  object-fit: cover;
+  object-position: center top;
+  margin-bottom: 18px;
+  border-radius: 10px;
+}
+
 .contact {
   margin: clamp(40px, 8vw, 84px) clamp(20px, 5vw, 72px);
   padding: clamp(42px, 7vw, 84px);
